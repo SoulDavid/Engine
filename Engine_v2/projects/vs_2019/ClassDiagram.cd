@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Engine::Audio">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="Engine::Task">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.242" Y="0.183" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAEAAACAIAAAAAAAEAAAkAAAAgAAAAAAAAAAiAQAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Audio.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Audio_Component" Collapsed="true">
+    <Position X="1.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Audio_Component.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="glt::Camera">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAIAAAAAAEAAAQgAAQAEAAAAQAAAgIAAIhAiAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\opengl-toolkit\headers\Camera.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Camera_Component">
+    <Position X="11.25" Y="11.25" Width="1.5" />
+    <InheritanceLine Type="Engine::Component" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="7.812" />
+        <Point X="4" Y="8.42" />
+        <Point X="12" Y="8.42" />
+        <Point X="12" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Camera_Component.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Component" Collapsed="true">
+    <Position X="3.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Component.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Control_Component">
+    <Position X="9.5" Y="11.25" Width="1.5" />
+    <InheritanceLine Type="Engine::Component" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="7.812" />
+        <Point X="4" Y="8.474" />
+        <Point X="10.25" Y="8.474" />
+        <Point X="10.25" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Control_Component.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Controller">
+    <Position X="25.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Controller.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="glt::Model_Obj">
+    <Position X="15" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAgIBAEAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\opengl-toolkit\headers\Model_Obj.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Scene">
+    <Position X="20" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQKgAABAAQAAEAAgAAgAoAAQBDwIQGAhAgAASAAAAI=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Scene.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Entity">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAAAAAEiAAAACAAIAAAAAEAgAAAAAIIIAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Entity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Message">
+    <Position X="22" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Message.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Message_Observer">
+    <Position X="27.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Message_Observer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Player_Controller">
+    <Position X="26" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Engine::Player_Controller::NumberList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Player_Controller.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQBgBAAAAAAAAAAAAAAAIAAIAAQARAAAAACAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Player_Controller.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Input_Task">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Input_Task.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Window">
+    <Position X="18" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Engine::Window::Event" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Window.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAABAAAAAAEAAAAAAAAAAQAAAAgIAAgACAAAIAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Window.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::TaskRenderer">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="Engine::Task" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5" Y="2.055" />
+        <Point X="5" Y="2.26" />
+        <Point X="2.25" Y="2.26" />
+        <Point X="2.25" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAIAAAAAAAAACAAAQAAgAACAACQAQAAgAg=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\TaskRenderer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Kernel">
+    <Position X="23.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAEAAgAIAQAAiAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Kernel.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Keyboard">
+    <Position X="13.25" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Engine::Keyboard::Key_Code" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Keyboard.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Keyboard.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="glt::Light">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAEAAAAEAgAAEAAACACAAAAAAAgBAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\opengl-toolkit\headers\Light.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Light_Component">
+    <Position X="4.25" Y="11.25" Width="1.5" />
+    <InheritanceLine Type="Engine::Component" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="7.812" />
+        <Point X="4" Y="8.772" />
+        <Point X="5" Y="8.772" />
+        <Point X="5" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Light_Component.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Message_Dispatcher">
+    <Position X="23.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAIAAABAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Message_Dispatcher.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Music_Component">
+    <Position X="0.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Music_Component.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Render_Component">
+    <Position X="7.75" Y="11.25" Width="1.5" />
+    <InheritanceLine Type="Engine::Component" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="7.812" />
+        <Point X="4" Y="8.551" />
+        <Point X="8.5" Y="8.551" />
+        <Point X="8.5" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Render_Component.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Sound_Component">
+    <Position X="2.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Sound_Component.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Task">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Task.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="glt::Render_Node">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="glt::Render_Node::Drawables" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\opengl-toolkit\headers\Render_Node.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="glt::Render_Node::Drawables_By_Object" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\opengl-toolkit\headers\Render_Node.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="glt::Render_Node::Drawables_By_Material" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\opengl-toolkit\headers\Render_Node.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="glt::Render_Node::Drawables_By_Shader" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\opengl-toolkit\headers\Render_Node.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="glt::Render_Node::Node_Map" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\opengl-toolkit\headers\Render_Node.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="glt::Render_Node::Node_List" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\opengl-toolkit\headers\Render_Node.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAABQAAACAAQAAAAAQBAAAAEAAAAAAAgAAEAyIAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\opengl-toolkit\headers\Render_Node.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Transform_Component">
+    <Position X="6" Y="11.25" Width="1.5" />
+    <InheritanceLine Type="Engine::Component" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="7.812" />
+        <Point X="4" Y="8.689" />
+        <Point X="6.75" Y="8.689" />
+        <Point X="6.75" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAIAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Transform_Component.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Math::Vector3">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAIAQAAQAAEAAAQAAAAAAQAAAAABgAQAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\code\Vector3.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="Mix_Music" Collapsed="true">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\sdl2-mixer-vs\include\SDL_mixer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SDL_GLContext" Collapsed="true">
+    <Position X="13.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Escritorio\Motor_DavidMartin\Engine_v2\libraries\sdl2-vs\include\SDL_video.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

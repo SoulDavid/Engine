@@ -1,0 +1,15 @@
+﻿imm32.lib(IMM32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+version.lib(VERSION.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+setupapi.lib(SETUPAPI.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+kernel32.lib(KERNEL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+user32.lib(USER32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+gdi32.lib(GDI32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+winspool.lib(WINSPOOL.DRV) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+comdlg32.lib(COMDLG32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+advapi32.lib(ADVAPI32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+shell32.lib(SHELL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+ole32.lib(ole32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+oleaut32.lib(OLEAUT32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+odbc32.lib(ODBC32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se definió en winmm.lib(WINMM.dll); segunda definición omitida
+  Engine_v2.vcxproj -> D:\Escritorio\Motor_DavidMartin\LeagueOfLegends\projects\vs_2019\x64\Debug\Engine_v2.lib

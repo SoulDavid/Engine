@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\code\Audio.cpp" />
+    <ClCompile Include="..\..\code\Audio_Component.cpp" />
+    <ClCompile Include="..\..\code\Camera_Component.cpp" />
+    <ClCompile Include="..\..\code\Component.cpp" />
+    <ClCompile Include="..\..\code\Controller.cpp" />
+    <ClCompile Include="..\..\code\Control_Component.cpp" />
+    <ClCompile Include="..\..\code\Entity.cpp" />
+    <ClCompile Include="..\..\code\Input_Task.cpp" />
+    <ClCompile Include="..\..\code\Kernel.cpp" />
+    <ClCompile Include="..\..\code\Keyboard.cpp" />
+    <ClCompile Include="..\..\code\Light_Component.cpp" />
+    <ClCompile Include="..\..\code\Message.cpp" />
+    <ClCompile Include="..\..\code\Message_Dispatcher.cpp" />
+    <ClCompile Include="..\..\code\Message_Observer.cpp" />
+    <ClCompile Include="..\..\code\Music_Component.cpp" />
+    <ClCompile Include="..\..\code\Player_Controller.cpp" />
+    <ClCompile Include="..\..\code\Render_Component.cpp" />
+    <ClCompile Include="..\..\code\Scene.cpp" />
+    <ClCompile Include="..\..\code\Sound_Component.cpp" />
+    <ClCompile Include="..\..\code\Task.cpp" />
+    <ClCompile Include="..\..\code\TaskRenderer.cpp" />
+    <ClCompile Include="..\..\code\Transform_Component.cpp" />
+    <ClCompile Include="..\..\code\Vector3.cpp" />
+    <ClCompile Include="..\..\code\Window.cpp" />
+    <ClCompile Include="..\..\code\winmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\Audio.hpp" />
+    <ClInclude Include="..\..\code\Audio_Component.hpp" />
+    <ClInclude Include="..\..\code\Camera_Component.hpp" />
+    <ClInclude Include="..\..\code\Component.hpp" />
+    <ClInclude Include="..\..\code\Controller.hpp" />
+    <ClInclude Include="..\..\code\Control_Component.hpp" />
+    <ClInclude Include="..\..\code\Entity.hpp" />
+    <ClInclude Include="..\..\code\Input_Task.hpp" />
+    <ClInclude Include="..\..\code\Kernel.hpp" />
+    <ClInclude Include="..\..\code\Keyboard.hpp" />
+    <ClInclude Include="..\..\code\Light_Component.hpp" />
+    <ClInclude Include="..\..\code\Message.hpp" />
+    <ClInclude Include="..\..\code\Message_Dispatcher.hpp" />
+    <ClInclude Include="..\..\code\Message_Observer.hpp" />
+    <ClInclude Include="..\..\code\Music_Component.hpp" />
+    <ClInclude Include="..\..\code\Player_Controller.hpp" />
+    <ClInclude Include="..\..\code\Render_Component.hpp" />
+    <ClInclude Include="..\..\code\Scene.hpp" />
+    <ClInclude Include="..\..\code\Sound_Component.hpp" />
+    <ClInclude Include="..\..\code\Task.hpp" />
+    <ClInclude Include="..\..\code\TaskRenderer.hpp" />
+    <ClInclude Include="..\..\code\Transform_Component.hpp" />
+    <ClInclude Include="..\..\code\Vector3.hpp" />
+    <ClInclude Include="..\..\code\Window.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{05a059c6-5207-45b7-a69a-67d395b9e65d}</ProjectGuid>
+    <RootNamespace>Enginev2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../libraries/sdl2-vs/include;../../libraries/sdl2-mixer-vs/include;../../libraries/opengl-toolkit/headers</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>../../libraries/sdl2-vs/lib/x64; ../../libraries/sdl2-mixer-vs/lib/static/x64; ../../libraries/opengl-toolkit/lib/x64;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2-mixer-d.lib;opengl-toolkit-debug.lib;winmm.lib;imm32.lib;version.lib;opengl32.lib;setupapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../libraries/sdl2-vs/include;../../libraries/sdl2-mixer-vs/include;../../libraries/opengl-toolkit/headers</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2-mixer-d.lib;opengl-toolkit-release.lib;winmm.lib;imm32.lib;version.lib;opengl32.lib;setupapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>../../libraries/sdl2-vs/lib/x64; ../../libraries/sdl2-mixer-vs/lib/static/x64; ../../libraries/opengl-toolkit/lib/x64;</AdditionalLibraryDirectories>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
